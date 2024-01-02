@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -8,42 +8,43 @@ const Navbar = () => {
                 <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold" : ""}
+                    isPending ? "pending" : isActive ? "bg-blue-400 font-semibold text-[18px]" : "text-[18px] text-white"}
                     >Home</NavLink>
             </li>
             <li>
                 <NavLink
                 to="/aboutus"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold" : ""}
+                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px] text-white"}
                     >About Us</NavLink>
             </li>
             <li>
                 <NavLink
                 to="/event"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold" : ""}
+                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px] text-white"}
                     >Event</NavLink>
             </li>
             <li>
                 <NavLink
                 to="/blog"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold" : ""}
+                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px] text-white"}
                     >Blog</NavLink>
             </li>
             <li>
                 <NavLink
                 to="/contactus"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold" : ""}
+                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px] text-white"}
                     >Contact</NavLink>
             </li>
     
      </>
+
     return (
-        <div className="">
-            <div className="navbar bg-base-300 px-20 py-10">
+        <div className=" fixed top-0 left-0 fixed top-0 left-0 w-full text-white px-1 z-10p-4 z-10">
+            <div className="navbar bg-[#333] drop-shadow px-20 py-6 rounded-full">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
