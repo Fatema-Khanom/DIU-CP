@@ -6,7 +6,7 @@ import { Parallax } from 'react-parallax';
 
 const Bannar = () => {
   return (
-   <div className="-mt-0" id="banner">
+   <div className="-mt-0 md:h-full" id="banner">
      <Parallax
       bgImage="https://i.ibb.co/6s0y9tK/monitor-1307227-1920.jpg"
       bgImageAlt="the menu"
