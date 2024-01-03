@@ -1,11 +1,9 @@
 
 
 
-
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  { useState } from 'react';
-//import { FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-//import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt, faPhone, faEnvelope,  } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -56,37 +54,27 @@ const Contact = () => {
           </h2>
 
           <div className="text-center md:flex gap-28 mt-24 px-6">
-            {/* <div className="mb-8 lg:mb-0 md:text-start">
-              <h1 className="text-xl  font-semibold text-blac ">CONTACT DETAILS</h1>
-              <p className="text-gray-500 py-2 font-semibold text-lg">
-                
-                Satarkul,Dhaka</p>
-              <p className="text-gray-500 py-2 font-semibold text-lg">
-                
-                +2 0102 7676 999</p>
-              <p className="text-gray-500 font-semibold text-lg">diucp123@gmail.com</p>
-              <p className=" font-semibold text-xl mt-4">FOLLOW US</p>
-              <div className="flex gap-4 mt-2 lg:mt-5 text-xl mt-[8px] text-gray-400">
-               
-              </div>
-            </div> */}
+            
             <div className="mb-8 lg:mb-0 md:text-start">
             <h1 className="text-xl font-semibold text-black">CONTACT DETAILS</h1>
             <p className="text-gray-500 py-2 font-semibold text-lg">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-blue-700" />
+                
                 Satarkul, Dhaka
             </p>
             <p className="text-gray-500 py-2 font-semibold text-lg">
-                <FontAwesomeIcon icon={faPhone} className="mr-2" />
+                <FontAwesomeIcon icon={faPhone} className="mr-2 text-blue-700" />
                 +2 0102 7676 999
             </p>
-            <p className="text-gray-500 font-semibold text-lg">
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                diucp123@gmail.com
+            <p className="text-gray-500 py-2 font-semibold text-lg inline-flex items-center">
+              <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-blue-700" />
+            diucp123@gmail.com
             </p>
             <p className="font-semibold text-xl mt-4">FOLLOW US</p>
             <div className="flex gap-4 mt-2 lg:mt-5 text-xl mt-[8px] text-gray-400">
                 {/* Add your follow icons here */}
+                
+                
             </div>
             </div>
 

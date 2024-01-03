@@ -8,7 +8,7 @@ const Bannar = () => {
   return (
    <div className="-mt-0" id="banner">
      <Parallax
-      bgImage="https://s3.eu-west-1.amazonaws.com/halim.website/images/intro-bg.jpg"
+      bgImage="https://i.ibb.co/6s0y9tK/monitor-1307227-1920.jpg"
       bgImageAlt="the menu"
       strength={800}
       

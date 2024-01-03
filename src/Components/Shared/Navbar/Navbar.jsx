@@ -8,7 +8,7 @@ const Navbar = () => {
                 <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-blue-400 font-semibold text-[18px]" : "text-[18px] text-black hover:text-blue-600"}
+                    isPending ? "pending" : isActive ? "bg-blue-700 font-semibold text-[18px]" : "text-[18px] text-black hover:text-blue-600"}
                     >Home</NavLink>
             </li>
             <li>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <NavLink
                 to="/contact"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px]  text-black hover:text-blue-600"}
+                    isPending ? "pending" : isActive ? "bg-blue-700 font-semibold text-[18px]" : "text-[17px]  text-black hover:text-blue-600"}
                     >Contact</NavLink>
             </li>
     
