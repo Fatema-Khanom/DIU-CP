@@ -30,7 +30,8 @@ const Bannar = () => {
               fontSize: '4em',
               display: 'inline-block',
               fontWeight: 'bold',
-              padding: '44px'
+              padding: '44px',
+              
             }}
             repeat={Infinity}
           />
