@@ -44,7 +44,7 @@ const Contact = () => {
 
     <div className=" p-8 items-center" id="contact">
       <div className="max-w-screen-lg mx-auto">
-        <h2 className= "text-center text-[#ebf0f0] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
+        <h2 className= "text-center text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
           CONTACT
         </h2>
         <div className="">
@@ -55,7 +55,7 @@ const Contact = () => {
 
           <div className="text-center md:flex gap-28 mt-24 px-6">
             
-            <div className="mb-8 lg:mb-0 md:text-start">
+            <div  className="mb-8 lg:mb-0 md:text-start">
             <h1 className="text-xl font-semibold text-black">CONTACT DETAILS</h1>
             <p className="text-gray-500 py-2 font-semibold text-lg">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-blue-700" />
