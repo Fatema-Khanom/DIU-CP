@@ -16,6 +16,23 @@ Join us on <a href="https://t.me/+Xl9jUzUkGhFmMDM1"> <img src="https://github.co
 Who made this project possible 🔗
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Fatema-Khanom">
+            <img src="https://avatars.githubusercontent.com/u/124078285?v=4" width="100;" alt="Fatema-Khanom"/>
+            <br />
+            <sub><b>Fatema Khanom</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/mursalatul">
+            <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
+            <br />
+            <sub><b>Md. Mursalatul Islam Pallob</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 
 ## Guidelines for contributors 📏 📐
