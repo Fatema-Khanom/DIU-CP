@@ -11,7 +11,7 @@ const Bannar = () => {
         bgImage="https://i.ibb.co/6s0y9tK/monitor-1307227-1920.jpg"
         // Background Image URL
         bgImageAlt="the menu"
-        strength={800}
+        strength={300}
       >
         {/* Relative Positioned Container */}
         <div className="relative h-screen flex items-center justify-center">

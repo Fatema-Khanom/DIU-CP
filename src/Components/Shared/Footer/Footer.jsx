@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     /* Footer Container */
-    <div className="bg-[#333]">
+    <div className="dark:bg-black bg-[#333]">
       {/* Top Section */}
       <div className="lg:flex justify-between py-6 px-20">
         {/* Branding */}
@@ -36,7 +36,7 @@ const Footer = () => {
       <hr className="text-black"></hr>
 
       {/* Footer Content */}
-      <footer className="footer footer-center p-4 bg-[#333] py-12 text-white font-semibold ">
+      <footer className="footer footer-center p-4 dark:bg-black bg-[#333] py-12 text-white font-semibold ">
         <aside>
           {/* Copyright Information */}
           <p>Copyright © 2024 - All right reserved by DIU CP</p>

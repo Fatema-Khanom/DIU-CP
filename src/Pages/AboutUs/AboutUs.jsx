@@ -1,18 +1,19 @@
 // AboutUs.js
 
 import { Helmet } from "react-helmet";
+import './AboutUs.css';
 
 
 const AboutUs = () => {
   return (
-        <div className="">
+        <div className="container">
              <Helmet>
         <meta charSet="utf-8" />
         <title>DIU|CP Community|About Us</title>
         <link rel="canonical" href="http://mysite.com/example" />
     </Helmet>
-            <div className="py-20">
-            <h2 className= "text-center text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
+            {/* <div className="py-20">
+            <h2 className= "text-center dark:text-[#292a2a] text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
           About Us
         </h2>
         <div className="">
@@ -21,6 +22,10 @@ const AboutUs = () => {
             <div className="h-1 w-24 bg-blue-600 absolute bottom-0 left-1/2 transform -translate-x-1/2 "></div>
           </h2>
         </div>
+            </div> */}
+
+            <div className="">
+
             </div>
         </div>
 

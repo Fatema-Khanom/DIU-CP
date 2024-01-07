@@ -24,7 +24,7 @@ const WinnerSection = () => {
       <h2
         data-aos="fade-up"
         data-aos-anchor-placement="center-center"
-        className="text-center text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl"
+        className=" text-center dark:text-[#292a2a] text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl"
       >
         WINNERS
       </h2>
@@ -35,7 +35,7 @@ const WinnerSection = () => {
         <h2
           data-aos="fade-up"
           data-aos-anchor-placement="center-center"
-          className="text-center text-blue-600 items-center -mt-16 pb-4 lg:-mt-24 text-3xl lg:text-4xl font-bold relative"
+          className=" text-center text-blue-600 items-center -mt-16 pb-4 lg:-mt-24 text-3xl lg:text-4xl font-bold relative"
         >
           Recent Contest Update
           <div className="h-1 w-24 bg-blue-600 absolute bottom-0 left-1/2 transform -translate-x-1/2 "></div>
@@ -51,7 +51,7 @@ const WinnerSection = () => {
               data-aos-duration="2000"
               src="https://i.ibb.co/FnPVMTS/411901541-1279099236235409-716376007913945986-n.jpg"
               alt="Winner Banner"
-              className="object-cover px-10 md:w-100 md:h-96 md:px-0 rounded text-center"
+              className="object-cover px-10 md:w-100 md:h-96 md:px-0 rounded text-center drop-shadow-2xl"
             />
           </div>
 
@@ -68,12 +68,12 @@ const WinnerSection = () => {
             <h2 className="text-3xl font-bold mb-4">DIU CPC Monthly Programming Contest - December 2023 Update.</h2>
 
             {/* Contest Update Description */}
-            <p className="text-gray-700 mb-6 text-start">
+            <p className=" mb-6 text-start">
               Let's celebrate the advance Happy New Year with this year's last programming contest, "DIU Monthly Programming Contest December 2023." The contest has been completed successfully, and we believe it was a highly competitive event.
             </p>
 
             {/* Contest Details */}
-            <div className={`bg-base-300 text-start p-4 rounded ${isExpanded ? 'mb-0' : ''}`}>
+            <div className= {`bg-base-300 drop-shadow-lg text-start p-4 rounded ${isExpanded ? 'mb-0' : ''}`}>
               <p className="font-bold text-xl">Contest Details:</p>
               <p>Number of problems: <span className="font-semibold">7</span></p>
               <p>Problem setter: <span className="font-semibold">Md Mursalatul Islam Pallob</span></p>
@@ -88,7 +88,7 @@ const WinnerSection = () => {
             </p>
 
             {/* Winners List */}
-            <div className={`bg-base-300 text-start p-4 my-4 rounded ${isExpanded ? 'mb-0' : ''}`}>
+            <div className={`bg-base-300 text-start drop-shadow-lg p-4 my-4 rounded ${isExpanded ? 'mb-0' : ''}`}>
               <p className="font-bold text-xl">Winners</p>
               <p>1st: <span className="font-semibold">Md Rafiul Islam (Batch: E-99)</span></p>
               <p>2nd: <span className="font-semibold">Md Sajjad Islam Swadhin (Batch: D-66)</span></p>

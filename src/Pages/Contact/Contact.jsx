@@ -54,7 +54,7 @@ const Contact = () => {
       {/* Max width container for content */}
       <div className="max-w-screen-lg mx-auto py-20">
         {/* Contact Title */}
-        <h2 className="text-center text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
+        <h2 className="text-center dark:text-[#292a2a] text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
           CONTACT
         </h2>
 
@@ -145,7 +145,7 @@ const Contact = () => {
                       placeholder="Your message goes here.........."
                       name="message"
                       rows="4"
-                      className="input input-bordered text-white bg-[#ebf0f0] focus:border-blue-500 w-full h-32 pt-4 "
+                      className="input input-bordered  bg-[#ebf0f0] focus:border-blue-500 w-full h-32 pt-4 "
                       onChange={handleInputChange}
                     />
                   </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                 <div className="text-center">
                   <button
                     onClick={handleSendMessage}
-                    className="bg-blue-500 text-lg font-semibold mt-4 text-white px-6 py-2 rounded "
+                    className="bg-blue-600 text-lg font-semibold mt-4 text-white px-6 py-2 rounded "
                   >
                     Send Message 📨
                   </button>
