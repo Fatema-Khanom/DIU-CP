@@ -1,23 +1,23 @@
 
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../../assets/cplogo02.png"
 
 const Navbar = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
-  const [visible, setVisible] = useState(true);
+  // const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  // const [visible, setVisible] = useState(true);
 
-  const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-    setVisible(prevScrollPos <= currentScrollPos || currentScrollPos <0);
-    setPrevScrollPos(currentScrollPos);
-  };
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [prevScrollPos]);
+  // const handleScroll = () => {
+  //   const currentScrollPos = window.pageYOffset;
+  //   setVisible(prevScrollPos <= currentScrollPos || currentScrollPos <0);
+  //   setPrevScrollPos(currentScrollPos);
+  // };
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, [prevScrollPos]);
   // JSX for navigation options
   const navOptions = (
     <>
@@ -79,8 +79,8 @@ const Navbar = () => {
   );
 
   return (
-    /* Navbar Container */
-    <div  className={`fixed top-0 left-0 w-full text-white z-10 transition-transform duration-300 ${visible ? '-translate-y-full' : ''}`}>
+    /* Navbar Container transition-transform duration-300 ${visible ? '-translate-y-full' : ''} */
+    <div  className={`fixed top-0 left-0 w-full text-white z-10  `}>
       {/* Navbar Content */}
       <div className="navbar bg-base-300 drop-shadow lg:px-20 ">
         {/* Navbar Start */}
