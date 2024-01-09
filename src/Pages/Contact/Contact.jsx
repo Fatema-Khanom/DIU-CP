@@ -84,7 +84,7 @@ const Contact = () => {
               {/* Contact Email */}
               <p className="text-gray-500 py-2 font-semibold text-lg inline-flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-blue-700" />
-                diucp123@gmail.com
+                diucpcommunity1@gmail.com
               </p>
               {/* Follow Us Section */}
               <p className="font-semibold text-xl mt-4">FOLLOW US</p>
