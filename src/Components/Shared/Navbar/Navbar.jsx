@@ -82,7 +82,7 @@ const Navbar = () => {
     /* Navbar Container */
     <div  className={`fixed top-0 left-0 w-full text-white z-10 transition-transform duration-300 ${visible ? '-translate-y-full' : ''}`}>
       {/* Navbar Content */}
-      <div className="navbar bg-blue-900 drop-shadow lg:px-20 ">
+      <div className="navbar bg-base-300 drop-shadow lg:px-20 ">
         {/* Navbar Start */}
         <div className="flex justify-between  lg:navbar-start">
           {/* Mobile Dropdown */}
