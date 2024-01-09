@@ -26,17 +26,17 @@ Who made this project possible 🔗
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/mursalatul">
-            <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
-            <br />
-            <sub><b>Md. Mursalatul Islam Pallob</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/asifelahii">
             <img src="https://avatars.githubusercontent.com/u/149480370?v=4" width="100;" alt="asifelahii"/>
             <br />
             <sub><b>ASIF ELAHI</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/mursalatul">
+            <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
+            <br />
+            <sub><b>Md. Mursalatul Islam Pallob</b></sub>
         </a>
     </td>
     <td align="center">
