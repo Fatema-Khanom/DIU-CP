@@ -26,6 +26,13 @@ Who made this project possible 🔗
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/mursalatul">
+            <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
+            <br />
+            <sub><b>Md. Mursalatul Islam Pallob</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/asifelahii">
             <img src="https://avatars.githubusercontent.com/u/149480370?v=4" width="100;" alt="asifelahii"/>
             <br />
@@ -33,10 +40,10 @@ Who made this project possible 🔗
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/mursalatul">
-            <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
+        <a href="https://github.com/rajiyasultana">
+            <img src="https://avatars.githubusercontent.com/u/143528671?v=4" width="100;" alt="rajiyasultana"/>
             <br />
-            <sub><b>Md. Mursalatul Islam Pallob</b></sub>
+            <sub><b>Rajiya Sultana</b></sub>
         </a>
     </td></tr>
 </table>
