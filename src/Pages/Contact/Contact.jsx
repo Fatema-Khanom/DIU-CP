@@ -37,7 +37,7 @@ const Contact = () => {
     `;
 
     // Encode subject and body for the mailto link
-    const mailtoLink = `diucpcommumity1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:diucpcommumity1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Open the default email client with the pre-filled email
     window.location.href = mailtoLink;
