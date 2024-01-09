@@ -12,6 +12,9 @@ Join us on <a href="https://t.me/+Xl9jUzUkGhFmMDM1"> <img src="https://github.co
 </a>
 </div>
 
+## About Code Park
+[Code Park](https://github.com/mursalatul/code-park) is a community-based code storage repository that offers coding support to DIU students. It is created and maintained by fellow students who believe in the power of shared knowledge. The repository contains all the necessary code you may need for your semester or project. Feel free to visit and contribute your code so that others can benefit
+
 ## Contributors 👩🏾‍🚀 👨🏾‍🚀
 Who made this project possible 🔗
 
@@ -26,17 +29,17 @@ Who made this project possible 🔗
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/asifelahii">
-            <img src="https://avatars.githubusercontent.com/u/149480370?v=4" width="100;" alt="asifelahii"/>
-            <br />
-            <sub><b>ASIF ELAHI</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/mursalatul">
             <img src="https://avatars.githubusercontent.com/u/79168756?v=4" width="100;" alt="mursalatul"/>
             <br />
             <sub><b>Md. Mursalatul Islam Pallob</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/asifelahii">
+            <img src="https://avatars.githubusercontent.com/u/149480370?v=4" width="100;" alt="asifelahii"/>
+            <br />
+            <sub><b>ASIF ELAHI</b></sub>
         </a>
     </td>
     <td align="center">
