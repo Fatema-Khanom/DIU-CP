@@ -12,6 +12,9 @@ Join us on <a href="https://t.me/+Xl9jUzUkGhFmMDM1"> <img src="https://github.co
 </a>
 </div>
 
+## About Code Park
+[Code Park](https://github.com/mursalatul/code-park) is a community-based code storage repository that offers coding support to DIU students. It is created and maintained by fellow students who believe in the power of shared knowledge. The repository contains all the necessary code you may need for your semester or project. Feel free to visit and contribute your code so that others can benefit
+
 ## Contributors 👩🏾‍🚀 👨🏾‍🚀
 Who made this project possible 🔗
 
