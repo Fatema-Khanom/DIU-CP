@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../../assets/cplogo02.png"
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
@@ -81,7 +82,7 @@ const Navbar = () => {
     /* Navbar Container */
     <div  className={`fixed top-0 left-0 w-full text-white z-10 transition-transform duration-300 ${visible ? '-translate-y-full' : ''}`}>
       {/* Navbar Content */}
-      <div className="navbar bg-base-300 drop-shadow lg:px-20 ">
+      <div className="navbar bg-blue-900 drop-shadow lg:px-20 ">
         {/* Navbar Start */}
         <div className="flex justify-between  lg:navbar-start">
           {/* Mobile Dropdown */}
@@ -98,7 +99,7 @@ const Navbar = () => {
             </ul>
           </div >
           {/* Logo */}
-          <img src="https://i.ibb.co/LpZSfxK/photo-2024-01-02-20-14-01-removebg-preview.png" className=" w-12 h-16 md:w-20 md:h-20" alt="" />
+      <img src={logo} className=" w-12 h-16 md:w-20 md:h-20" alt="" />
         </div>
 
         {/* Navbar End (Hidden on Mobile) */}
