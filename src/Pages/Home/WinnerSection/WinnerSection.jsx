@@ -24,7 +24,7 @@ const WinnerSection = () => {
       <h2
         data-aos="fade-up"
         data-aos-anchor-placement="center-center"
-        className=" text-center dark:text-[#292a2a] text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl"
+        className=" text-center dark:text-[#292a2a] text-[#f2f3ef] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl"
       >
         WINNERS
       </h2>
@@ -35,10 +35,10 @@ const WinnerSection = () => {
         <h2
           data-aos="fade-up"
           data-aos-anchor-placement="center-center"
-          className=" text-center text-blue-600 items-center -mt-16 pb-4 lg:-mt-24 text-3xl lg:text-4xl font-bold relative"
+          className=" text-center text-blue-60 text-[#FFB000] items-center -mt-16 pb-4 lg:-mt-24 text-3xl lg:text-4xl font-bold relative"
         >
           Recent Contest Update
-          <div className="h-1 w-24 bg-blue-600 absolute bottom-0 left-1/2 transform -translate-x-1/2 "></div>
+          <div className="h-1 w-24 bg-blue-60 bg-[#FFB000] absolute bottom-0 left-1/2 transform -translate-x-1/2 "></div>
         </h2>
 
         {/* Contest Update Content */}

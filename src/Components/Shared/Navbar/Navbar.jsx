@@ -1,7 +1,7 @@
 
 //import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../../assets/cplogo02.png"
+import logo from "../../../assets/logo.jpg"
 
 const Navbar = () => {
   // const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
@@ -25,7 +25,7 @@ const Navbar = () => {
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-blue-700 font-semibold text-[18px]" : "text-[18px] text-black hover:text-blue-600"}
+            isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
           Home
         </NavLink>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <NavLink
           to="/aboutus"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px] text-black hover:text-blue-600"}
+            isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
           About Us
         </NavLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <NavLink
           to="/event"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px]  text-black hover:text-blue-600"}
+            isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
           Event
         </NavLink>
@@ -52,7 +52,7 @@ const Navbar = () => {
         <NavLink
           to="/blog"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-gray-400 font-semibold text-[18px]" : "text-[17px]  text-black hover:text-blue-600"}
+            isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
           Blog
         </NavLink>
@@ -61,7 +61,7 @@ const Navbar = () => {
         <NavLink
           to="/contact"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-blue-700 font-semibold text-[18px]" : "text-[17px]  text-black hover:text-blue-600"}
+            isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
           Contact
         </NavLink>
@@ -70,7 +70,7 @@ const Navbar = () => {
         <NavLink
           to="/resourse"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-blue-700 font-semibold text-[18px]" : "text-[17px]  text-black hover:text-blue-600"}
+            isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
           Resourse
         </NavLink>
@@ -82,24 +82,33 @@ const Navbar = () => {
     /* Navbar Container transition-transform duration-300 ${visible ? '-translate-y-full' : ''} */
     <div  className={`fixed top-0 left-0 w-full text-white z-10  `}>
       {/* Navbar Content */}
-      <div className="navbar bg-base-300 drop-shadow lg:px-20 ">
+      <div className="navbar bg-[#FFB000] drop-shadow lg:px-20 ">
         {/* Navbar Start */}
         <div className="flex justify-between  lg:navbar-start">
           {/* Mobile Dropdown */}
-          <div className="dropdown justify-between  lg:hidden flex items-center">
+          <div className="dropdown  lg:hidden flex items-center">
             {/* Dropdown Button */}
-            <div tabIndex={0} role="button" className="btn btn-ghost text-right lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" className=" h-5 w-5 rounded-full text-blue-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            {/* <div tabIndex={0} role="button" className="btn btn-ghost text-right lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" className=" h-7 w-7 rounded-full text-blax" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
-            </div>
+            </div> */}
+
+              <button><label htmlFor="check" className="flex flex-col gap-[5px] p-3 rounded-lg  cursor-pointer">
+                  <input type="checkbox" id="check" className="peer/check hidden" />
+                  <span className="w-10 h-1 rounded-lg inline-block bg-white peer-checked/check:rotate-45 peer-checked/check:translate-y-2 duration-300"></span>
+                  <span className="w-10 h-1 rounded-lg inline-block bg-white peer-checked/check:scale-0 duration-300"></span>
+                  <span className="w-10 h-1 rounded-lg inline-block bg-white peer-checked/check:-rotate-45 peer-checked/check:-translate-y-2 duration-300"></span>
+                </label>
+              </button>
             {/* Dropdown Menu */}
-            <ul tabIndex={0} className="menu menu-sm dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box  w-52 mt-36">
+            <ul tabIndex={0} className="menu menu-sm dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box  w-60 mt-36">
               {navOptions}
             </ul>
           </div >
+          
           {/* Logo */}
-      <img src={logo} className=" w-12 h-16 md:w-20 md:h-20" alt="" />
+      <img src={logo} className=" w-10 h-10 rounded-full md:w-16 md:h-16" alt="" />
         </div>
 
         {/* Navbar End (Hidden on Mobile) */}

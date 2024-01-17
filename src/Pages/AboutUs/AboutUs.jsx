@@ -26,7 +26,7 @@ const AboutUs = () => {
     </Helmet>
            <div className="">
                 <div className="flex items-center justify-center">
-                <img src="https://i.ibb.co/FVMPPYf/diu-Campus.jpg" className="cover h-screen  min-w-screen  mx-auto pt-16 md:pt-24 text-center" alt="" />
+                <img src="https://i.ibb.co/FVMPPYf/diu-Campus.jpg" className="cover h-screen  min-w-screen  mx-auto pt-16 md:pt-20 text-center" alt="" />
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="1000" className="px-20">
