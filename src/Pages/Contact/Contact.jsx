@@ -54,16 +54,16 @@ const Contact = () => {
       {/* Max width container for content */}
       <div className="max-w-screen-lg mx-auto py-20">
         {/* Contact Title */}
-        <h2 className="text-center dark:text-[#292a2a] text-[#dee5e5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
+        <h2 className="text-center dark:text-[#292a2a] text-[#f2f5f5] opacity-1 items-center relative font-bold mb-4 pt-16 text-6xl lg:text-9xl">
           CONTACT
         </h2>
 
         {/* Contact Content */}
         <div className="">
           {/* Get in Touch Title */}
-          <h2 className="text-center text-blue-600 items-center -mt-16 pb-4 lg:-mt-24 text-3xl lg:text-4xl font-bold relative">
+          <h2 className="text-center text-black items-center -mt-16 pb-4 lg:-mt-24 text-3xl lg:text-4xl font-bold relative">
             Get in Touch
-            <div className="h-1 w-24 bg-blue-600 absolute bottom-0 left-1/2 transform -translate-x-1/2 "></div>
+            <div className="h-1 w-24 bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 "></div>
           </h2>
 
           {/* Contact Information and Form */}
@@ -73,17 +73,17 @@ const Contact = () => {
               <h1 className="text-xl font-semibold text-black">CONTACT DETAILS</h1>
               {/* Contact Address */}
               <p className="text-gray-500 py-2 font-semibold text-lg">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-blue-700" />
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-black" />
                 Satarkul, Dhaka
               </p>
               {/* Contact Phone Number */}
               <p className="text-gray-500 py-2 font-semibold text-lg">
-                <FontAwesomeIcon icon={faPhone} className="mr-2 text-blue-700" />
+                <FontAwesomeIcon icon={faPhone} className="mr-2 text-black" />
                 +2 0102 7676 999
               </p>
               {/* Contact Email */}
               <p className="text-gray-500 py-2 font-semibold text-lg inline-flex items-center">
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-blue-700" />
+                <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-black" />
                 diucpcommunity1@gmail.com
               </p>
               {/* Follow Us Section */}
@@ -154,7 +154,7 @@ const Contact = () => {
                 <div className="text-center">
                   <button
                     onClick={handleSendMessage}
-                    className="bg-blue-600 text-lg font-semibold mt-4 text-white px-6 py-2 rounded "
+                    className="bg-black text-lg font-semibold mt-4 text-white px-6 py-2 rounded "
                   >
                     Send Message 📨
                   </button>

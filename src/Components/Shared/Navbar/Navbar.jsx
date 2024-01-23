@@ -68,11 +68,11 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/resourse"
+          to="/resource"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "bg-white text-black font-semibold text-[18px]" : "text-[18px] text-black hover:text-white"}
         >
-          Resourse
+          Resource
         </NavLink>
       </li>
     </>

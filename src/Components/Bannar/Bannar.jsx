@@ -28,7 +28,7 @@ const Bannar = () => {
               sequence={[
                 "Hello!",                               // First animation
                 1000,                                   // Pause duration
-                'Welcome to DIU Competitive Programming World!',  // Second animation
+                'Welcome to DIU CP Community',  // Second animation
                 1000,                                   // Pause duration
               ]}
               wrapper="span"

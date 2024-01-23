@@ -58,7 +58,7 @@ const AboutUs = () => {
                 {/* our beloved mentors section */}
                 <div className="px-20">
                 <h1 className="text-4xl text-black py-10 font-bold">Our Beloved Mentor's</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div  data-aos="zoom-in" data-aos-duration="1000"className="group inline-block overflow-hidden">
                         <img src={dean_sir} className="h-84 w-96 transition-transform transform group-hover:scale-110" alt="" />
                         <h1 className="text-xl font-bold text-black">Dr. A.T.M. Mahbubur Rahman</h1>
@@ -74,7 +74,7 @@ const AboutUs = () => {
                         <h1 className="text-xl font-bold text-black">Prof. Abdul Based</h1>
                         <p className="font-semibold">Head of Research & Publication cell</p>
                     </div>
-                </div>
+                </div> */}
                 </div>
 
                 {/* our goal section */}

@@ -39,6 +39,7 @@ import MainLayout from "../Layout/MainLayout";
 import ErrorPage from "../Pages/Error/ErrorPage";
 import Contact from "../Pages/Contact/Contact";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+import Resource from "../Pages/Resource/Resource";
 
 // Create a BrowserRouter with specified routes
 const myCreatedRoute = createBrowserRouter([
@@ -58,6 +59,10 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/aboutus",
         element: <AboutUs></AboutUs>,
+      },
+      {
+        path: "/resource",
+        element: <Resource></Resource>,
       },
     ],
   },
