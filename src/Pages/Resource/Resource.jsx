@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import DsaResource from './DsaResource/DsaResource';
 
 const Resource = () => {
-    const jsonDataUrl = 'https://mursalatul.github.io/code-park/ADMIN/MAINTAIN/DOC_DATA.json';
+    const jsonDataUrl = 'https://mursalatul.github.io/code-park/DOC_DATA.json';
     return (
         <div>
             <Helmet>

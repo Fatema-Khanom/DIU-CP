@@ -40,6 +40,7 @@ import ErrorPage from "../Pages/Error/ErrorPage";
 import Contact from "../Pages/Contact/Contact";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import Resource from "../Pages/Resource/Resource";
+import Event from "../Pages/Event/Event";
 
 // Create a BrowserRouter with specified routes
 const myCreatedRoute = createBrowserRouter([
@@ -63,6 +64,10 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/resource",
         element: <Resource></Resource>,
+      },
+      {
+        path: "/event",
+        element:<Event></Event>,
       },
     ],
   },
