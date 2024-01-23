@@ -23,6 +23,19 @@ const Resource = () => {
                     </h2>
 
                     <DsaResource jsonDataUrl={jsonDataUrl} className=""/>
+                    <div className="mt-16 p-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-lg shadow-lg text-white">
+            <h2 className="text-4xl font-bold mb-6">🚀 Previous Monthly Problems</h2>
+            <p className="text-lg mb-8">Dive into the challenges from our past monthly contests and boost your problem-solving skills.</p>
+
+            <div className="text-center">
+                <a
+                    href="https://www.hackerrank.com/diu-competitive-programming-community-problems-board"
+                    className="bg-white text-purple-600 py-3 px-6 rounded-full inline-block hover:bg-purple-600 hover:text-white transition duration-300"
+                >
+                    Explore Now
+                </a>
+            </div>
+        </div>
 
 
                 </div>

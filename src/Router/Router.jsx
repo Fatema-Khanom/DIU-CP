@@ -41,6 +41,7 @@ import Contact from "../Pages/Contact/Contact";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import Resource from "../Pages/Resource/Resource";
 import Event from "../Pages/Event/Event";
+import Blog from "../Pages/Blog/Blog";
 
 // Create a BrowserRouter with specified routes
 const myCreatedRoute = createBrowserRouter([
@@ -68,6 +69,10 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/event",
         element:<Event></Event>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
       },
     ],
   },
