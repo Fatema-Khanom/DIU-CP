@@ -23,7 +23,7 @@ const Resource = () => {
                     </h2>
 
                     <DsaResource jsonDataUrl={jsonDataUrl} className=""/>
-                    <div className="mt-16 p-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-lg shadow-lg text-white">
+                    <div className="mt-16 px-12 lg:px-0 p-8 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-lg shadow-lg text-white">
             <h2 className="text-4xl font-bold mb-6">🚀 Previous Monthly Problems</h2>
             <p className="text-lg mb-8">Dive into the challenges from our past monthly contests and boost your problem-solving skills.</p>
 

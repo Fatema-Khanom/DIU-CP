@@ -39,7 +39,7 @@ import React, { useEffect, useState } from "react";
   }, [currentSlider]);
 
   return (
-    <div className=" mx-auto h-[340px] mt-[70px] md:h-[700px] flex flex-col lg:flex-row items-center overflow-hidden gap-5 lg:gap-10 px-10">
+    <div className=" mx-auto h-[340px] mt-[70px] md:h-screen flex flex-col lg:flex-row items-center w-screen overflow-hidden gap-5 lg:gap-10 ">
       <div className="relative overflow-hidden">
         {/* arrow */}
         <div className="absolute w-full h-full flex items-center justify-between z-50 px-5">
